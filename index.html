@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="animation.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div></div>
+            <h1 id="logo"><a href="index.html"></a></h1>
+            <button class="none shopping-cart-icon ">
+              <img class="shopping-cart-img"  src="./img/shopping-cart-outline-svgrepo-com.svg"  width="20px" alt="" >
+              <span class="span">(0)</span>
+           </button> 
+
+        </nav>
+        
+    </header>
+    <!-- section0 -->
+    <!-- <section class="main main-page">
+        <div class="cta">
+            <div class="cta-text">
+               <h2><span class="cta1">A girl</span></h2>
+               <h2><span class="cta2">should be</span></h2>
+               <h2><span class="cta3">two things:</span></h2>
+           </div>
+           <div class="cta-text">
+            <h2><span class="cta4">classy</span></h2>
+            <h2><span class="cta5">and</span></h2>
+            <h2><span class="cta6">fabulous</span></h2>
+           </div>
+        </div>
+        <img class="background-img" src="./img/pexels-todd-trapani-1909331.jpg" alt="">
+    </section> -->
+    <!-- section1 -->
+    <section class="first-page">
+        <video class="snow-video" src="./img/pexels-james-cheney-6933537.mp4" autoplay muted loop ></video>
+        <!-- <div class="first-page-desc"> -->
+            <!-- <h1>Best Jewels</h1>
+            <h2>scroll for more</h2> -->
+            <div class="cta">
+                <div class="cta-text">
+                   <h2><span class="cta1">A girl</span></h2>
+                   <h2><span class="cta2">should be</span></h2>
+                   <h2><span class="cta3">two things:</span></h2>
+               </div>
+               <div class="cta-text">
+                <h2><span class="cta4">classy</span></h2>
+                <h2><span class="cta5">and</span></h2>
+                <h2><span class="cta6">fabulous</span></h2>
+               </div>
+            </div>
+            <!-- <button>see more</button> -->
+        <!--</div -->
+    </section>
+    <section class="product-section second-page">
+    <div class="gallery-products">
+
+       
+    </div>
+
+   
+</section>
+<section class="caroosel-section third-page">
+    <h1>special Offer</h1>
+   
+        <div class="photo-gallery">
+            <div class="photo-gallery-container 1st-cont">
+                <img class="1st-img" src="./img/IMG_2452.JPG"  width="500rem" alt="">
+            </div>
+       
+            <div class="photo-gallery-container 2nd-cont">
+                <img class="2nd-img" src="./img/5.jpg" width="500rem"  alt="">
+            </div>
+            <div class="photo-gallery-container 3d-cont">
+                <img class="3d-img" src="./img/IMG_2452.JPG" width="500rem"  alt="">
+            </div>
+        </div> 
+        <div class="swatch-container">
+            <div class="swatches">
+                <img src="./img/5.jpg" swatch="1" alt="">
+                <img src="./img/5.jpg" swatch="2" alt="">
+                <img src="./img/5.jpg" swatch="3" alt="">
+            </div>
+
+        </div>
+
+       
+
+   
+
+</section>
+<section class="cart">
+<div id="shopping-cart-container">
+   
+    <div class="products-container">
+       
+
+    </div>
+    <div class="total">
+        <h1 class="total-name">Всего:</h1>
+        <h2 class="total-price"></h2>
+    </div>
+    
+
+</div>
+</section>
+
+<template id="shopping-cart-template">
+    <div data-cart-product class="product-cart-item">
+        <div class="cart-image-container">
+            <img data-image src="./img/5.jpg" width="350px" alt="">
+        </div>
+        <button remove-from-cart-btn class="remove-btn">remove</button>
+        <div class="cart-product-description">
+            <h1 data-name class="cart-name">Product:<span class="cart-span">defse</span> </h1>
+            <h2 data-quantity class="cart-quantity"> x2 </h2>
+            <h2 data-price class="cart-price">Price: <span class="cart-span">400</span> </h2>
+        </div>
+    </div>
+</template>
+<template id="product-template">
+    <div data-product class="product">
+        <div class="img-container">
+            <img data-image src="./img/3.jpg"  alt="">
+        </div>
+        <div class="desc-button">
+        <div class="description">
+            <h1 data-name class="name">Nimfa</h1>
+            <h3 data-price class="price">30RUB</h3>
+        </div>
+        <button data-add-to-cart class="add-to-cart">Add To Cart</button>
+    </div>
+    </div>
+</template>
+<!-- <div class="invisible overlay" ></div> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+</body>
+</html>

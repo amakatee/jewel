@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Mois chain",
+        "priceAmount": 3000,
+        "imageId": "7"
+    },
+    {
+        "id": 2,
+        "name": "gaia",
+        "priceAmount": 8000,
+        "imageId": "2"
+    },
+    {
+        "id": 3,
+        "name": "Assymet",
+        "priceAmount": 9000,
+        "imageId": "3"
+    },
+    {
+        "id": 4,
+        "name": "Astrid Ring",
+        "priceAmount": 3400,
+        "imageId": "4"
+    },
+    {
+        "id": 5,
+        "name": "Astrid Gold",
+        "priceAmount": 9090,
+        "imageId": "5"
+    },
+    {
+        "id": 6,
+        "name": "earrings",
+        "priceAmount": 3340,
+        "imageId": "8"
+    }
+]
